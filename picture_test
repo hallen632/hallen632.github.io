@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>母亲节快乐</title>
+    
+    
+  </head>
+  <body>
+    <h1><strong>我 ♥ 妈妈!<strong>母亲节快乐!</strong>健康美丽！</strong></h1>
+    <p>新的一年对妈妈的祝福：</p>
+    <ul>
+      <li>如今花开花谢，岁月在您的爱中宁静而绚烂！</li>
+      <li>岁月如歌，您的爱如诗，在我的心间细细品味，永不褪色！</li>
+      <li>可爱的母亲，愿您的每一个愿望都成真，每一天都开心快乐。</li>
+    </ul>
+
+<img src="images/mother_happy.jpg" alt="mother_happy">
+<picture>
+  <source media="(max-width: 449px)" srcset="images/mother_happy2.jpg" />
+  <source media="(min-width: 450px)" srcset="images/mother_happy3.jpg" />
+  <img src="images/mother_happy3.jpg" alt="Chris standing up holding his daughter Elva" />
+</picture>
+
+  	<script src="scripts/main.js"></script> 
+	<script src="scripts/test.js"></script> 
+<!--在HTML文件中注释往往写在最后，避免读取出现问题。 -->
+  </body>
+</html>
