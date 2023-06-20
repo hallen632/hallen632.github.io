@@ -1,39 +1,92 @@
-/*进行全局设置*/
+/* header、body 设置 */
 html {
-  /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
-  font-size: 18px;
-  /* Google fonts 输出的 CSS */
-  background-color: #f46cad;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif;
+  background: url(images/pattern.png);
 }
-/*文档体格式设置*/
 body {
-  width: 1000px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  background-color: #eb1446;
-  padding: 20px 20px 20px 20px;
-  border: 5px solid black;
+  background-color: white;
+  position: relative;
+}
+.center-text {
+  text-align: center;
+}
+.left-align {
+  float: left;
+  left: 32.5px;
+  width: 150px;
+  top: 32.5px;
+}
+.right-align {
+  float: right;
+  right: 32.5px;
+  width: 150px;
+  top: 32.5px;
+}
+.person-name{
+ color: rgb(235, 123, 142);
+}
+/* 标题样式 */
+header {
+  height: 150px;
 }
 
 h1 {
-  font-size: 60px;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  color: #0f0f0f;
-  text-shadow: 3px 3px 1px rgb(95, 88, 88);
-}
-/*调整图片*/
-img {
-  display: block;
-  margin: 0 auto;
-  
-  border: 8px solid rgb(2, 117, 117);
+  font-size: 50px;
+  line-height: 140px;
+  margin: 0 32.5px 0 32.5px;
 }
 
-p, li {
-  font-size: 19px;
-  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+/* 主体区段和视频样式 */
+main {
+  background: #ccc;
+}
+article {
+  padding: 20px;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+p {
   line-height: 2;
-  letter-spacing: 1px;
+}
+iframe {
+  float: left;
+  margin: 0 20px 20px 0;
+
+  max-width: 100%;
+}
+video {
+  float: left;
+  margin: 0 0 0 0;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+/* 更多信息链接 */
+.further-info {
+  clear: left;
+  padding: 40px 0;
+  background: #c13832;
+  box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+              inset 0 -3px 2px rgba(0,0,0,0.5);
+}
+.further-info a {
+  width: 50%;
+  display: block;
+  float: left;
+}
+.further-info img {
+  max-width: 100%;
+}
+.clearfix {
+  clear: both;
+}
+
+/* 小熊猫图片 */
+.red-panda img {
+  display: block;
+  max-width: 100%;
 }
